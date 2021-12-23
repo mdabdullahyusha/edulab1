@@ -1,0 +1,320 @@
+@media (min-width:1400px) {}
+
+/* Media Query Up To 1400px Breakpoint End */
+
+
+/* Media Query 1200 To 1399px Breakpoint Start */
+@media (min-width:1200px) and (max-width:1399.98px) {
+    .welcome_part {
+        background-position: right;
+    }
+}
+/* Media Query 1200 To 1399px Breakpoint End */
+
+
+/* Media Query 992 To 1199 Breakpoint Start */
+@media (min-width:992px) and (max-width:1199.98px) {
+    .welcome_part {
+        background-position: center;
+    }
+    .blog_img_overlay .catagory {
+        margin-top: 70px;
+    }
+    .contact_con .social_icon {
+        height: 40px;
+        width: 40px;
+    }
+    .res_01 {
+        margin-top: 100px;
+    }
+    .res_02 {
+        margin-top: 100px;
+    }
+
+    /* Class Play 01 Part Start */
+    .subject_con .grid {
+        grid-template-columns: repeat(4, 1fr) ;
+    }
+    .curriculum_grid {
+        grid-template-columns: repeat(6, auto);
+    }
+    /* Class Play 01 Part End */
+
+
+    
+    .subject_main_03.mt {
+        margin: 0;
+    }
+}
+/* Media Query 992 To 1199 Breakpoint End */
+
+
+/* Media Query 768 To 991 Breakpoint Start */
+@media (min-width:768px) and (max-width:991.98px) {
+    .expand_menu {
+        z-index: -111;
+    }
+    .extra_facility_con {
+        margin-top: 24px;
+    }
+    .welcome_part {
+        background-position: center;
+    }
+    .about_con p span {
+        display: none;
+    }
+    .service_con span {
+        display: none;
+    }
+    .teachers_con {
+        margin-top: 24px;
+    }
+    .res_01 {
+        margin-top: 100px;
+    }
+    .res_02 {
+        margin-top: 100px;
+    }
+
+
+    .subject_con .grid {
+        grid-template-columns: repeat(4, 1fr) ;
+        grid-column-gap: 14px;
+    }
+    .curriculum_grid {
+        grid-template-columns: repeat(4, auto);
+    }
+    .p_md_3 {
+        padding-top: 30px;
+    }
+
+
+    
+    
+}
+/* Media Query 768 To 991 Breakpoint End */
+
+
+/* Media Query 576 To 767 Breakpoint Start */
+@media (min-width:576px) and (max-width:767.98px) {
+    .navbar-brand img {
+        max-width: 180px;
+    }
+    .extra_facility_con {
+        margin-top: 24px;
+    }
+    .welcome_part {
+        background-position: center;
+    }
+    .about_con {
+        text-align: center;
+    }
+    .btn__respo {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0 30px;
+    }
+    .service_con {
+        text-align: center;
+        padding: 0 30px;
+    }
+    .service_con_img {
+        padding: 15px 30px 0;
+    }
+    .service_con_img img {
+        border-radius: 10px;
+    }
+    .blog_img_overlay .catagory {
+        margin-top: 30px;
+    }
+    .blog_img_overlay h4 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .teachers_con {
+        margin-top: 24px;
+    }
+    .vision_con {
+        text-align: center;
+    }
+    .respo {
+        display: flex;
+        justify-content:center;
+    }
+    .res_01 {
+        margin-top: 100px;
+    }
+    .res_02 {
+        margin-top: 100px;
+    }
+    .res_03 {
+        margin-top: 100px;
+    }
+
+
+    .subject_con .grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 14px;
+    }
+    .curriculum_grid {
+        grid-template-columns: repeat(3, auto);
+    }
+
+
+    .sidemenu_con_3 {
+        max-width: 100px;
+    }
+    
+
+    .subject_con_head_inner {
+        margin-top: 24px;
+    }
+    .subject_main_03.mt {
+        margin: 0;
+    }
+    
+
+    .more_question_con {
+        margin-top: 24px;
+    }
+    .p_md_3 {
+        padding-top: 30px;
+    }
+}
+/* Media Query 576 To 767 Breakpoint End */
+
+
+/* Media Down To 576 Breakpoint Start */
+@media (max-width:576px) {
+    .navbar-brand img {
+        max-width: 180px;
+    }
+    .extra_facility_con {
+        margin-top: 24px;
+    }
+    .welcome_part {
+        background-position: center;
+    }
+    .welcome_con {
+        text-align: center;
+    }
+    .bttn {
+        display: flex;
+        justify-content: center;
+    }
+    .about_con {
+        text-align: center;
+    }
+    .btn__respo {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0 30px;
+    }
+    .service_con_img {
+        display: none;
+    }
+    .service_con {
+        text-align: center;
+        padding: 0 30px;
+    }
+    .blog_img_overlay .catagory {
+        margin-top: 80px;
+    }
+    .blog_head {
+        text-align: center;
+    }
+    .teachers_con {
+        margin-top: 24px;
+    }
+    .vision_con {
+        text-align: center;
+    }
+    .respo {
+        display: flex;
+        justify-content:center;
+    }
+    .footer_slogan {
+        text-align: left;
+    }
+    .contact_logo {
+        text-align: center;
+    }
+    .contact_con {
+        text-align: center;
+    }
+    .social_icon_main {
+        display: flex;
+        justify-content: center;
+    }
+    .res_01 {
+        margin-top: 100px;
+    }
+    .res_02 {
+        margin-top: 100px;
+    }
+    .res_03 {
+        margin-top: 100px;
+    }
+    .res_04 {
+        margin-top: 100px;
+    }
+    .expand_inner_menu_02.in_05 {
+        left: -15px;
+    }
+    .class_dropdown a,
+    .class_dropdown ul li,
+    .subject_head .subject p,
+    .subject_head .time p {
+        font-size: 14px;
+    }
+
+
+    .subject_con .grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 14px;
+    }
+    .curriculum_grid {
+        grid-template-columns: repeat(2, auto);
+    }
+
+
+    .sidemenu_con_3 {
+        max-width: 100px;
+    }
+    .lacture_con {
+        margin-top: 24px;
+    }
+    
+
+    .respo_04 {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+    .class_name,
+    .subject_name {
+	width: 150px;
+    }   
+    .lacture_con_04 {
+	width: 150px;
+    }
+    .more_question_con {
+        margin-top: 24px;
+    }
+
+
+    .common_ques_box {
+        padding: 5px;
+    }
+    .common_ques_box p{
+        font-size: 14px;
+    }
+    .multi_choic_ques:nth-child(1) {
+        margin-top: 24px;
+    }
+    .mpi_head,
+    .product_info,
+    .delivery_options {
+        text-align: center;
+    }
+}
+/* Media Down To 576 Breakpoint End */
